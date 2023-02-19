@@ -52,7 +52,7 @@ The lower MSE, the better the prediction.
 * jobId is all unique, not included as a feature
 * companyId has 63 unique values, can not easily visualize
 * The rest of the categorical variables - jobType, degree, major and industry have a small amount of unique values and can visualize
-<img src="images/img1.png" width="500">
+<img src='images/img1.png' width="500">
 <img src="images/img2.png" width="900">
 
 ## 2.2 Checking salary = 0 Situation

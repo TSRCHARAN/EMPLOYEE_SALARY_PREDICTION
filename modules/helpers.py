@@ -27,7 +27,7 @@ def fill_extra_categories_with_train_mode(df, colname, train):
         df.loc[bool1,colname] = replacement
     return df
 
-#remove columns that are not going to the models
+#remove columns that are not going to the models 
 def remove_extra_columns(df, colnames):
     df = df.drop(columns = colnames)
     return df

@@ -156,7 +156,7 @@ The lower MSE, the better the prediction.
 * note: also included an option of whether to use scaler (normalize all the numeric variables).
 <img width="915" alt="img18" src="https://user-images.githubusercontent.com/90524579/220081734-8e2ce5f0-6a01-49b9-8401-f64eed0ba5e3.png"> 
 
-* Observations:
+Observations:
 * Different models generated similar MSE, except linear regression did really poorly with encoded features.
 * The model with the lowest MSE is GradientBoosting with transformed features and scaled.
 * Whether to scale the numeric variables makes very little or no difference in the MSE.
